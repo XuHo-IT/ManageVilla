@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using VillaManage_VillaAPI;
 using VillaManage_VillaAPI.Data;
 using VillaManage_VillaAPI.Logging;
+using VillaManage_VillaAPI.Repository;
+using VillaManage_VillaAPI.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +18,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
 });
-
+builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddControllers(option => { option.ReturnHttpNotAcceptable = true; }).AddNewtonsoftJson().AddXmlDataContractSerializerFormatters();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
