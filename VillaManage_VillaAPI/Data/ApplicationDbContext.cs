@@ -11,6 +11,8 @@ namespace VillaManage_VillaAPI.Data
 
         public DbSet<Villa> Villas { get; set; }
 
+        public DbSet<VillaNumber> villaNumbers { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -75,6 +77,15 @@ namespace VillaManage_VillaAPI.Data
                   Amenity = "",
                   CreatedDate = DateTime.Now
               });
+
+            modelBuilder.Entity<VillaNumber>().HasData(
+         new VillaNumber
+         {
+             VillaNo = 1,
+           CreatedDate  = DateTime.Now,
+           UpdatedDate = DateTime.Now,
+           SpecialDetails = "Nice one"
+         });
         }
     }
 }

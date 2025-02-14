@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bMy5N1Mbr6w=",
+  "dgSpecHash": "2taCpt7K60E=",
   "success": true,
   "projectFilePath": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_VillaAPI\\VillaManage_VillaAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\OS\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\OS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
