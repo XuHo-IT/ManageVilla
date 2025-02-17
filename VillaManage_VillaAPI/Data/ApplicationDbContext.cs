@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using VillaManage_VillaAPI.Model;
+using VillaManage_Web.Model;
 
 namespace VillaManage_VillaAPI.Data
 {
@@ -9,6 +10,7 @@ namespace VillaManage_VillaAPI.Data
         {
         }
 
+        public DbSet<LocalUser> LocalUsers { get; set; }
         public DbSet<Villa> Villas { get; set; }
 
         public DbSet<VillaNumber> villaNumbers { get; set; }
@@ -76,16 +78,7 @@ namespace VillaManage_VillaAPI.Data
                   Sqft = 1100,
                   Amenity = "",
                   CreatedDate = DateTime.Now
-              });
-
-            modelBuilder.Entity<VillaNumber>().HasData(
-         new VillaNumber
-         {
-             VillaNo = 1,
-           CreatedDate  = DateTime.Now,
-           UpdatedDate = DateTime.Now,
-           SpecialDetails = "Nice one"
-         });
+              });       
         }
     }
 }
