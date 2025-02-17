@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\service\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\service\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\localuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\localuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\registerationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\registerationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,28 +94,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VillaNumberController.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaNumberController.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Controllers\\VillaNumberController.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaNumberController.cs",
-              "RelativeToolTip": "VillaManage_Web\\Controllers\\VillaNumberController.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAiwKwAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\IService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Service\\IService\\IAuthService.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\IService\\IAuthService.cs",
+              "RelativeToolTip": "VillaManage_Web\\Service\\IService\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T09:10:19.124Z",
+              "WhenOpened": "2025-02-17T14:47:57.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VillaController.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaController.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Controllers\\VillaController.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaController.cs",
-              "RelativeToolTip": "VillaManage_Web\\Controllers\\VillaController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDgAAAAGAAAA",
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\DTO\\UserDTO.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "VillaManage_Web\\Model\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T09:07:18.768Z",
+              "WhenOpened": "2025-02-17T14:43:42.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterationRequestDTO.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\RegisterationRequestDTO.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\RegisterationRequestDTO.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\RegisterationRequestDTO.cs",
+              "RelativeToolTip": "VillaManage_Web\\Model\\RegisterationRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:43:14.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\LoginResponseDTO.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\LoginResponseDTO.cs",
+              "RelativeToolTip": "VillaManage_Web\\Model\\LoginResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:43:04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\ErrorViewModel.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\ErrorViewModel.cs",
+              "RelativeToolTip": "VillaManage_Web\\Model\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:43:02.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocalUser.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\LocalUser.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\LocalUser.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\LocalUser.cs",
+              "RelativeToolTip": "VillaManage_Web\\Model\\LocalUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:43:01.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "APIRequest.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\APIRequest.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\APIRequest.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\APIRequest.cs",
+              "RelativeToolTip": "VillaManage_Web\\Model\\APIRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:42:49.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\LoginRequestDTO.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\LoginRequestDTO.cs",
+              "RelativeToolTip": "VillaManage_Web\\Model\\LoginRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:42:47.195Z",
               "EditorCaption": ""
             }
           ]
