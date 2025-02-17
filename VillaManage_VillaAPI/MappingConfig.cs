@@ -16,6 +16,10 @@ namespace VillaManage_VillaAPI
             CreateMap<VillaNumber, VillaNumberDTO>();
             CreateMap<VillaNumber, VillaNumberCreateDTO>().ReverseMap();
             CreateMap<VillaNumber, VillaNumberUpdateDTO>().ReverseMap();
+            CreateMap<VillaNumber, VillaNumberDTO>();
+            CreateMap<VillaNumber, VillaDTO>();
+            CreateMap<VillaNumber, List<VillaDTO>>();
+
 
         }
     }

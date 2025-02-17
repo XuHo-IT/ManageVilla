@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\service\\villaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\service\\villaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\model\\dto\\villacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\model\\dto\\villacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\service\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\service\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\service\\iservice\\ivillaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\service\\iservice\\ivillaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|d:\\csharp_projects\\villamanage_villaapi\\villamanage_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{797F40C5-BFD9-4369-BD15-8A99DF99DF59}|VillaManage_Web\\VillaManage_Web.csproj|solutionrelative:villamanage_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,60 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VillaController.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaController.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Controllers\\VillaController.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaController.cs",
-              "RelativeToolTip": "VillaManage_Web\\Controllers\\VillaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:55:07.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Program.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Program.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Program.cs",
-              "RelativeToolTip": "VillaManage_Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:53:04.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "APIRequest.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\APIRequest.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\APIRequest.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\APIRequest.cs",
-              "RelativeToolTip": "VillaManage_Web\\Model\\APIRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:52:40.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VillaCreateDTO.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\DTO\\VillaCreateDTO.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Model\\DTO\\VillaCreateDTO.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Model\\DTO\\VillaCreateDTO.cs",
-              "RelativeToolTip": "VillaManage_Web\\Model\\DTO\\VillaCreateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:48:37.663Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -150,67 +70,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IVillaService.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\IService\\IVillaService.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Service\\IService\\IVillaService.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\IService\\IVillaService.cs",
-              "RelativeToolTip": "VillaManage_Web\\Service\\IService\\IVillaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "VillaNumberController.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaNumberController.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Controllers\\VillaNumberController.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaNumberController.cs",
+              "RelativeToolTip": "VillaManage_Web\\Controllers\\VillaNumberController.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAiwKwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:15:52.234Z",
+              "WhenOpened": "2025-02-17T09:10:19.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\BaseService.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Service\\BaseService.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\BaseService.cs",
-              "RelativeToolTip": "VillaManage_Web\\Service\\BaseService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwCcAAAA4AAAA",
+              "DocumentIndex": 1,
+              "Title": "VillaController.cs",
+              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaController.cs",
+              "RelativeDocumentMoniker": "VillaManage_Web\\Controllers\\VillaController.cs",
+              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Controllers\\VillaController.cs",
+              "RelativeToolTip": "VillaManage_Web\\Controllers\\VillaController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:49:33.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBaseService.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\IService\\IBaseService.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Service\\IService\\IBaseService.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\IService\\IBaseService.cs",
-              "RelativeToolTip": "VillaManage_Web\\Service\\IService\\IBaseService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:46:30.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VillaService.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\VillaService.cs",
-              "RelativeDocumentMoniker": "VillaManage_Web\\Service\\VillaService.cs",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\Service\\VillaService.cs",
-              "RelativeToolTip": "VillaManage_Web\\Service\\VillaService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwBYAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:17:12.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\appsettings.json",
-              "RelativeDocumentMoniker": "VillaManage_Web\\appsettings.json",
-              "ToolTip": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\appsettings.json",
-              "RelativeToolTip": "VillaManage_Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T08:41:37.838Z",
+              "WhenOpened": "2025-02-17T09:07:18.768Z",
               "EditorCaption": ""
             }
           ]

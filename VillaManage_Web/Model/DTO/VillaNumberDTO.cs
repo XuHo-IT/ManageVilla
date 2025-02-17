@@ -11,5 +11,8 @@ namespace VillaManage_Web.Model.DTO
         [Required]
         public int VillaID { get; set; }
         public string SpecialDetails { get; set; }
+
+        public VillaDTO villa { get; set; }
+
     }
 }

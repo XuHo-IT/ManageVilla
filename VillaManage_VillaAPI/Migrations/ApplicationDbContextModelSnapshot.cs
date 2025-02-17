@@ -31,22 +31,18 @@ namespace VillaManage_VillaAPI.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Amenity")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Details")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Occupancy")
@@ -70,7 +66,7 @@ namespace VillaManage_VillaAPI.Migrations
                         {
                             Id = 1,
                             Amenity = "",
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 56, 1, 842, DateTimeKind.Local).AddTicks(5241),
+                            CreatedDate = new DateTime(2025, 2, 16, 10, 36, 11, 134, DateTimeKind.Local).AddTicks(2170),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa3.jpg",
                             Name = "Royal Villa",
@@ -83,7 +79,7 @@ namespace VillaManage_VillaAPI.Migrations
                         {
                             Id = 2,
                             Amenity = "",
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 56, 1, 842, DateTimeKind.Local).AddTicks(5256),
+                            CreatedDate = new DateTime(2025, 2, 16, 10, 36, 11, 134, DateTimeKind.Local).AddTicks(2191),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa1.jpg",
                             Name = "Premium Pool Villa",
@@ -96,7 +92,7 @@ namespace VillaManage_VillaAPI.Migrations
                         {
                             Id = 3,
                             Amenity = "",
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 56, 1, 842, DateTimeKind.Local).AddTicks(5257),
+                            CreatedDate = new DateTime(2025, 2, 16, 10, 36, 11, 134, DateTimeKind.Local).AddTicks(2192),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa4.jpg",
                             Name = "Luxury Pool Villa",
@@ -109,7 +105,7 @@ namespace VillaManage_VillaAPI.Migrations
                         {
                             Id = 4,
                             Amenity = "",
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 56, 1, 842, DateTimeKind.Local).AddTicks(5259),
+                            CreatedDate = new DateTime(2025, 2, 16, 10, 36, 11, 134, DateTimeKind.Local).AddTicks(2194),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa5.jpg",
                             Name = "Diamond Villa",
@@ -122,7 +118,7 @@ namespace VillaManage_VillaAPI.Migrations
                         {
                             Id = 5,
                             Amenity = "",
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 56, 1, 842, DateTimeKind.Local).AddTicks(5261),
+                            CreatedDate = new DateTime(2025, 2, 16, 10, 36, 11, 134, DateTimeKind.Local).AddTicks(2196),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa2.jpg",
                             Name = "Diamond Pool Villa",
@@ -142,7 +138,6 @@ namespace VillaManage_VillaAPI.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("SpecialDetails")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("UpdatedDate")
@@ -161,9 +156,9 @@ namespace VillaManage_VillaAPI.Migrations
                         new
                         {
                             VillaNo = 1,
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 56, 1, 842, DateTimeKind.Local).AddTicks(5399),
+                            CreatedDate = new DateTime(2025, 2, 16, 10, 36, 11, 134, DateTimeKind.Local).AddTicks(2322),
                             SpecialDetails = "Nice one",
-                            UpdatedDate = new DateTime(2025, 2, 14, 14, 56, 1, 842, DateTimeKind.Local).AddTicks(5400),
+                            UpdatedDate = new DateTime(2025, 2, 16, 10, 36, 11, 134, DateTimeKind.Local).AddTicks(2323),
                             VillaID = 0
                         });
                 });
