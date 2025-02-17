@@ -5,12 +5,48 @@
       "PackagePath": "staticwebassets\\VillaManage_Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
       "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\home\\confirmation.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\confirmation.jpg"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\home\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\slide1.jpg"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\home\\slide2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\slide2.jpg"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\villa\\villa1.jpg",
+      "PackagePath": "staticwebassets\\images\\villa\\villa1.jpg"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\villa\\villa2.jpg",
+      "PackagePath": "staticwebassets\\images\\villa\\villa2.jpg"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\villa\\villa3.jpg",
+      "PackagePath": "staticwebassets\\images\\villa\\villa3.jpg"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\villa\\villa4.jpg",
+      "PackagePath": "staticwebassets\\images\\villa\\villa4.jpg"
+    },
+    {
+      "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\images\\villa\\villa5.jpg",
+      "PackagePath": "staticwebassets\\images\\villa\\villa5.jpg"
     },
     {
       "Id": "D:\\CSharp_Projects\\VillaManage_VillaAPI\\VillaManage_Web\\wwwroot\\js\\site.js",

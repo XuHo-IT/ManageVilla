@@ -15,10 +15,10 @@ namespace VillaManage_VillaAPI.Repository
         }
         public async Task<Villa> UpdateAsync(Villa entity)
         {
-            entity.UpdatedDate = DateTime.Now;
-            _context.Villas.Update(entity);
+            _context.Entry(entity).State = EntityState.Modified;
             await _context.SaveChangesAsync();
             return entity;
         }
+
     }
 }

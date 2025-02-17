@@ -29,3 +29,10 @@ D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\refint\
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.pdb
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.genruntimeconfig.cache
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\ref\VillaManage_Web.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.csproj.AssemblyReference.cache
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\AutoMapper.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\VillaManage.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\VillaManage.pdb
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaMan.5E2919E6.Up2Date

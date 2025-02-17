@@ -31,7 +31,7 @@ namespace VillaManage_Web.Service
             return SendAsync<T>(new APIRequest()
             {
                 APIType = SD.ApiType.DELETE,
-                Url = villaUrl + "/api/villaAPI/"+id
+                Url = villaUrl + "/api/villaAPI/" + id
             });
         }
 
@@ -59,7 +59,7 @@ namespace VillaManage_Web.Service
             {
                 APIType = SD.ApiType.PUT,
                 Data = dto,
-                Url = villaUrl + "/api/villaAPI/"+ dto.Id
+                Url = villaUrl + "/api/villaAPI/" + dto.Id
             });
         }
 
