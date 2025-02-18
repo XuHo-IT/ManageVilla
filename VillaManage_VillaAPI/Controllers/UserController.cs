@@ -6,8 +6,10 @@ using VillaManage_VillaAPI.Repository.IRepository;
 
 namespace VillaManage_VillaAPI.Controllers
 {
-    [Route("api/UserAuth")]
+    [Route("api/v{version:apiVersion}/UserAuth")]
     [ApiController]
+    //[ApiVersion("1.0")]
+    [ApiVersionNeutral]
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepo;
@@ -16,7 +18,7 @@ namespace VillaManage_VillaAPI.Controllers
         public UserController(IUserRepository userRepo)
         {
             _userRepo = userRepo;
-            this._response = new();
+            _response = new();
         }
 
 
@@ -28,11 +30,11 @@ namespace VillaManage_VillaAPI.Controllers
             {
                 _response.StatusCode = HttpStatusCode.BadRequest;
                 _response.IsSuccess = false;
-                _response.ErrorMessagess.Add("Username or password is incorrect");
+                _response.ErrorMessages.Add("Username or password is incorrect");
                 return BadRequest(_response);
             }
-            _response.StatusCode=HttpStatusCode.OK;
-            _response.IsSuccess=true;
+            _response.StatusCode = HttpStatusCode.OK;
+            _response.IsSuccess = true;
             _response.Result = loginResponse;
             return Ok(_response);
 
@@ -41,20 +43,20 @@ namespace VillaManage_VillaAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterationRequestDTO model)
         {
-         bool ifUserNameUnique = _userRepo.IsUniqueUser(model.UserName);
+            bool ifUserNameUnique = _userRepo.IsUniqueUser(model.UserName);
             if (!ifUserNameUnique)
             {
                 _response.StatusCode = HttpStatusCode.BadRequest;
                 _response.IsSuccess = false;
-                _response.ErrorMessagess.Add("Username already exists");
+                _response.ErrorMessages.Add("Username already exists");
                 return BadRequest(_response);
             }
-           var user = await _userRepo.Register(model);
+            var user = await _userRepo.Register(model);
             if (user == null)
             {
                 _response.StatusCode = HttpStatusCode.BadRequest;
                 _response.IsSuccess = false;
-                _response.ErrorMessagess.Add("Error while registering");
+                _response.ErrorMessages.Add("Error while registering");
                 return BadRequest(_response);
             }
             _response.StatusCode = HttpStatusCode.OK;

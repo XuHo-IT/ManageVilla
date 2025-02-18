@@ -8,6 +8,8 @@ D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\VillaMa
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\VillaManage_Web.pdb
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\AutoMapper.dll
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\VillaManage.dll
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\VillaManage.pdb
@@ -16,6 +18,7 @@ D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaMa
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.AssemblyInfoInputs.cache
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.AssemblyInfo.cs
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.csproj.CoreCompileInputs.cache
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.MvcApplicationPartsAssemblyInfo.cs
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.MvcApplicationPartsAssemblyInfo.cache
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.RazorAssemblyInfo.cache
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.RazorAssemblyInfo.cs
@@ -36,3 +39,12 @@ D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\refint\
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.pdb
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\VillaManage_Web.genruntimeconfig.cache
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\obj\Debug\net8.0\ref\VillaManage_Web.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage_Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

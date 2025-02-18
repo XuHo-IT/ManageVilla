@@ -19,6 +19,7 @@ namespace VillaManage_VillaAPI
             CreateMap<VillaNumber, VillaNumberDTO>();
             CreateMap<VillaNumber, VillaDTO>();
             CreateMap<VillaNumber, List<VillaDTO>>();
+            CreateMap<ApplicationUser, UserDTO>();
 
 
         }

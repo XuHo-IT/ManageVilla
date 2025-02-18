@@ -1,6 +1,7 @@
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage\bin\Debug\net8.0\VillaManage.deps.json
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage\bin\Debug\net8.0\VillaManage.dll
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage\bin\Debug\net8.0\VillaManage.pdb
+D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage\obj\Debug\net8.0\VillaManage.csproj.AssemblyReference.cache
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage\obj\Debug\net8.0\VillaManage.GeneratedMSBuildEditorConfig.editorconfig
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage\obj\Debug\net8.0\VillaManage.AssemblyInfoInputs.cache
 D:\CSharp_Projects\VillaManage_VillaAPI\VillaManage\obj\Debug\net8.0\VillaManage.AssemblyInfo.cs

@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Net.Http.Headers;
 using System.Text;
 using VillaManage;
 using VillaManage_Web.Model;
@@ -16,7 +17,6 @@ namespace VillaManage_Web.Service
             this.responseModel = new();
             this.httpClient = httpClient;
         }
-
         public async Task<T> SendAsync<T>(APIRequest apIRequest)
         {
             try
@@ -25,7 +25,10 @@ namespace VillaManage_Web.Service
                 HttpRequestMessage message = new HttpRequestMessage();
                 message.Headers.Add("Accept", "application/json");
                 message.RequestUri = new Uri(apIRequest.Url);
-
+                if (!string.IsNullOrEmpty(apIRequest.Token))
+                {
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apIRequest.Token);
+                }
                 if (apIRequest.Data != null)
                 {
                     message.Content = new StringContent(
@@ -34,7 +37,6 @@ namespace VillaManage_Web.Service
                         "application/json"
                     );
                 }
-
                 switch (apIRequest.APIType)
                 {
                     case SD.ApiType.POST:
@@ -50,58 +52,34 @@ namespace VillaManage_Web.Service
                         message.Method = HttpMethod.Get;
                         break;
                 }
-
                 HttpResponseMessage apiResponse = await client.SendAsync(message);
-
-                var apiContent = await apiResponse.Content.ReadAsStringAsync();           
-
-                if (apiResponse.StatusCode == System.Net.HttpStatusCode.NoContent)
+                var apiContent = await apiResponse.Content.ReadAsStringAsync();
+                if (apiResponse.IsSuccessStatusCode)
                 {
-                    // Handle 204 No Content - create a default response for T (likely APIResponse)
-                    if (typeof(T) == typeof(APIResponse))
+                    return JsonConvert.DeserializeObject<T>(apiContent);
+                }
+                else
+                {
+                    var errorResponse = new APIResponse
                     {
-                        var defaultResponse = new APIResponse { IsSuccess = true };
-                        return (T)Convert.ChangeType(defaultResponse, typeof(T));
-                    }
-                    return default; // or handle other generic types if needed
+                        ErrorMessages = new List<string> { apiContent },
+                        IsSuccess = false
+                    };
+                    return (T)Convert.ChangeType(errorResponse, typeof(T));
                 }
-                try
-                {
-                APIResponse ApiResponse = JsonConvert.DeserializeObject<APIResponse>(apiContent);
-                    if (apiResponse.StatusCode == System.Net.HttpStatusCode.BadRequest
-                        || apiResponse.StatusCode == System.Net.HttpStatusCode.NotFound)
-                    {
-                        ApiResponse.StatusCode = System.Net.HttpStatusCode.BadRequest;
-                        ApiResponse.IsSuccess = false;
-                        var res = JsonConvert.SerializeObject(ApiResponse);
-                        var returnOBJ = JsonConvert.DeserializeObject<T>(res);
-                        return returnOBJ;
-                    }
-
-                }
-                catch (Exception e)
-                {
-                    var exceptionResponse = JsonConvert.DeserializeObject<T>(apiContent);
-                    return exceptionResponse;
-                }
-                var APIResponse = JsonConvert.DeserializeObject<T>(apiContent);
-                return APIResponse;
-
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Exception in SendAsync: {ex.Message}");
-
-                var dto = new APIResponse
+                var errorResponse = new APIResponse
                 {
-                    ErrorMessages = new List<string> { Convert.ToString(ex.Message) },
+                    ErrorMessages = new List<string> { ex.Message },
                     IsSuccess = false
                 };
-                var res = JsonConvert.SerializeObject(dto);
-                var APIResponse = JsonConvert.DeserializeObject<T>(res);
-                return APIResponse;
+                return (T)Convert.ChangeType(errorResponse, typeof(T));
             }
         }
+
 
     }
 
