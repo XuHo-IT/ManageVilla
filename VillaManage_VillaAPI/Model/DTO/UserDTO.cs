@@ -1,4 +1,4 @@
-﻿namespace VillaManage_VillaAPI.Model
+﻿namespace VillaManage_VillaAPI.Model.DTO
 {
     public class UserDTO
     {
