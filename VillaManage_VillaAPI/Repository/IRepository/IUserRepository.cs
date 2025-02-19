@@ -1,5 +1,4 @@
-﻿using VillaManage_VillaAPI.Model;
-using VillaManage_VillaAPI.Model.DTO;
+﻿using VillaManage_VillaAPI.Model.DTO;
 using VillaManage_Web.Model;
 
 namespace VillaManage_VillaAPI.Repository.IRepository
